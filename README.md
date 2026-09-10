@@ -1,0 +1,1 @@
+# PWA-window-strip-test
