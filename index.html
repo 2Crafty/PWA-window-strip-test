@@ -1,0 +1,25 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  .titlebar {
+    height: env(titlebar-area-height, 32px);
+    display: flex;
+    align-items: center;
+
+    /* Keep your content out of the OS window buttons */
+    padding-right: env(titlebar-area-width, 0px);
+  }
+
+  .titlebar button {
+    border: 0;
+    background: transparent;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+</style>
+
+<div class="titlebar">
+  <button onclick="alert('Home!')">🏠</button>
+  <button onclick="alert('Settings!')">⚙️</button>
+  <button onclick="alert('Star!')">⭐</button>
+</div>
