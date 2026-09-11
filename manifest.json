@@ -1,10 +1,10 @@
 {
-  "name": "My PWA",
-  "short_name": "My PWA",
+  "name": "Files 2",
+  "short_name": "Files 2",
   "display_override": [
     "window-controls-overlay"
   ],
-  "display": "standalone",
+  "display": "browser",
   "start_url": "/",
   "scope": "/",
   "icons": [
