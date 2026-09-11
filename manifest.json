@@ -5,8 +5,8 @@
     "window-controls-overlay"
   ],
   "display": "standalone",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/PWA-window-strip-test/",
+  "scope": "/PWA-window-strip-test/",
   "icons": [
     {
       "src": "launchericon-48x48.png",
